@@ -2,9 +2,15 @@
 
 from datetime import datetime
 
-def calculate_age():
-    age = datetime.now().year - int(date)
+def myfunction(my_user_date):
+    age = datetime.now().year - int(my_user_date)
     print(age)
 
 date = input("Enter the year you were born?")
-calculate_age()
+myfunction(date)
+
+date = input("Enter the year you were born?")
+myfunction(date)
+
+date = input("Enter the year you were born?")
+myfunction(date)
