@@ -2,6 +2,9 @@
 
 from datetime import datetime
 
-date = input("Enter the year you were born?")
+def calculate_age():
+    age = datetime.now().year - int(date)
+    print(age)
 
-age = datetime.now().year - int(date)
+date = input("Enter the year you were born?")
+calculate_age()
