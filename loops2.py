@@ -2,7 +2,14 @@
 
 planets = ["Mercury", "Venus", "Earth", "Mars"]
 
-# For loop
+# Dictionaries
+distance_from_sun = {
+    "Mercury" : 0.4,
+    "Venus" : 0.7,
+    "Earth" : 1,
+    "Mars" : 1.5
+}
 
-for l in planets:
-    print(l)
+print(distance_from_sun ["Mercury"])
+for key in distance_from_sun:
+    print(key + "-->" + str(distance_from_sun[key]))
